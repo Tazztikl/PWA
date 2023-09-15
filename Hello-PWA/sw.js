@@ -1,9 +1,9 @@
 var cacheName = 'hello-pwa';
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/css/style.css',
-  '/js/main.js'
+  '/~tatuti/Web_kehityksen_perusteet/pwa/Hello-PWA/',
+  '/~tatuti/Web_kehityksen_perusteet/pwa/Hello-PWA/index.html',
+  '/~tatuti/Web_kehityksen_perusteet/pwa/Hello-PWA/css/style.css',
+  '/~tatuti/Web_kehityksen_perusteet/pwa/Hello-PWA/js/main.js'
 ];
 
 self.addEventListener('install', (e) => {
@@ -31,3 +31,4 @@ self.addEventListener('fetch', (e) => {
     })()
   );
 });
+

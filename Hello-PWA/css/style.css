@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-image: url("/images/taustakuva.png");
+    background-image: url("/~tatuti/Web_kehityksen_perusteet/pwa/Hello-PWA/images/taustakuva.png");
   }
   
   /* Make content area fill the entire browser window */
@@ -24,7 +24,7 @@ body {
   }
 
   @font-face {
-    src: url(/fontti/Poppins/Poppins-Bold.ttf);
+    src: url("/~tatuti/Web_kehityksen_perusteet/pwa/Hello-PWA/fontti/Poppins/Poppins-Bold.ttf");
     font-family:pop;
   }
 
